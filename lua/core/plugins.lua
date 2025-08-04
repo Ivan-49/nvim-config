@@ -10,7 +10,7 @@ end
 return require('packer').startup(function(use)
   use 'wbthomason/packer.nvim'      -- Менеджер плагинов
 
-  use 'neovim/nvim-lspconfig'       -- Конфиг для LSP (языков серверов)
+  --use 'neovim/nvim-lspconfig'       -- Конфиг для LSP (языков серверов)
   use 'hrsh7th/nvim-cmp'            -- Автодополнение
   use 'hrsh7th/cmp-nvim-lsp'        -- Источник LSP для nvim-cmp
   use 'hrsh7th/cmp-buffer'          -- Источник буфера
